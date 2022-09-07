@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "graphene_django",
     "graphql_api.transaction.apps.TransactionConfig",
     "django_filters",
+    "monit",
 ]
 
 MIDDLEWARE = [

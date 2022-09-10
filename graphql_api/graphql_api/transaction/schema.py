@@ -58,7 +58,6 @@ class GetTransactionStatsQueries(graphene.ObjectType):
 
 class GetTransactionSeriesQueries(graphene.ObjectType):
     transaction_series = graphene.List(PresetRangeType, presetRange=graphene.String())
-    # transactions_stats = graphene.List(PresetRangeType)
 
     def resolve_transaction_series(self, info, presetRange):
 
